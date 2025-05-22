@@ -12,7 +12,7 @@ This is a personal portfolio website designed and developed using only HTML and 
 
 ## 🔗 Live Demo
 
-(https://muthukumar-1612.github.io/html-portfolio/)
+(https://muthukumar-1612.github.io/Portfolio/)
 
 ## 🛠️ Technologies Used
 
