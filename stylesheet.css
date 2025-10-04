@@ -49,7 +49,7 @@ li a:hover {
 
 @media(max-width:800px){
     ul {float:none;
-    }
+    };
  }
  /*************************************************/
  body{ /*This is to remove the edge between the image and the edge, otherwise there will be a white gap*/
@@ -121,8 +121,7 @@ justify-items: stretch;
     justify-content: center;
     font-size: 5rem;
     color:#F47CB9;
-    
-
+    margin-right: 3rem;
 }
 
 .about>p{
@@ -161,8 +160,7 @@ justify-items: stretch;
     grid-template-rows: 1fr;
     margin:0;
     padding-top: 6rem;
-    padding-bottom: 6rem; 
-    
+    padding-bottom: 6rem;
 }
 
 .whatido>h2{
@@ -171,6 +169,7 @@ justify-items: stretch;
     font-size: 5rem;
     color:#F47CB9;
     align-items: center;
+    margin-left: 5rem;
 }
 
 
@@ -181,6 +180,11 @@ justify-items: stretch;
     margin-bottom: 1rem;
     line-height:1.6;
     font-family: 'Montserrat', sans-serif;
+    margin-right: 3rem;
+}
+
+.whatido-ul li {
+  white-space: nowrap;
 }
 
 h4{
@@ -267,15 +271,17 @@ h4{
     padding:1rem;
     text-decoration: underline;
 }
-
-.work p{
-    font-family: 'Montserrat', sans-serif;
-    color:white;
-    font-weight: bold;
-    font-size:1rem;
-    width:350px;
-    letter-spacing: 2px;
-    padding-left: 1.2rem;
+/* paragraph — centered and constrained, remove left padding */
+.work p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  max-width: 320px;
+  margin: 0 auto;       /* center block inside .work-item */
+  text-align: center;   /* center text lines */
+  letter-spacing: 0.3px; /* subtle spacing (not 2px) */
+  padding: 0;            /* remove any left padding */
 }
 
 @media(max-width:1200px){
@@ -364,7 +370,3 @@ h4{
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
     }
-
-
-  
-    
